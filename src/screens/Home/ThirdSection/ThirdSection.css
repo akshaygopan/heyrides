@@ -1,1 +1,33 @@
 
+.third-session{
+    display: flex;
+   
+}
+.third-session .content{
+    flex: 1;
+}
+.third-session .content .title{
+  font-size: 50px;
+  font-family: 'monaco';
+  color: var(--gray);
+
+  animation: fadeIn 3s forwards;
+}
+.third-session .features{
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+}
+.third-session .features .rows{
+    display: flex;
+}
+.third-session .features .rows .box{
+    padding: 10px;
+    width: 150px;
+    height: 100px;
+    margin: 20px;
+    border-radius: 10px;
+    color: var(--black);
+    background: linear-gradient(89.1deg, var(--white), var(--white));
+    box-shadow: 5px 5px 10px -2px var(--black);
+}
