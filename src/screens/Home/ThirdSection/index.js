@@ -5,10 +5,10 @@ import { MdAirlineSeatReclineExtra } from "react-icons/md";
 import { FaWifi } from "react-icons/fa";
 import { GiFirstAidKit } from "react-icons/gi";
 import { FaUserTie } from "react-icons/fa";
-
 const ThirdSection = () => {
   return(
   <div className="third-session">
+
       <div className="content">
          <span className="title">What we Offer</span>
       </div>
@@ -34,7 +34,9 @@ const ThirdSection = () => {
              </div>
          </div>
      </div>
+    
   </div>
+   
   );
 }
 
